@@ -52,9 +52,10 @@ a {
 
 .container-right {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-left: 720px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
 }
 .container-left {
     display: flex;
@@ -63,6 +64,7 @@ a {
     align-items: flex-start;
     margin-left: 200px;
     margin-bottom: 50px;
+    width: 50%;
 }
 
 .img-block1 {
@@ -78,6 +80,7 @@ a {
     border: none;
     padding: 5px 20px;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .information {
